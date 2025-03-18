@@ -29,7 +29,7 @@ if user_input:
             ax1.annotate(f'{i+1}', (x, y), xytext=(5, 5), textcoords='offset points')
         
         ax1.set_xlim(0, 100)
-        ax1.set_ylim(100, 0)
+        ax1.set_ylim(0, 100)
         ax1.set_xlabel('X coordinate')
         ax1.set_ylabel('Y coordinate')
         ax1.set_title('Input Points (Connected in Order)')
